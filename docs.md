@@ -81,7 +81,7 @@
   - Implementing specific behaviors for each account type
   - Demonstrating polymorphism with a common interface
 
-### 5. Asynchronous Programming and Concurrency (8 hours)
+### 5. Asynchronous Programming and Concurrency (4 hours)
 
 #### 5.1 Introduction to Asynchronous Programming
 - Understanding synchronous vs asynchronous operations
