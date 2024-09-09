@@ -28,18 +28,6 @@
 - Polymorphism
 - Hands-on: Extend the "Bank Account" example with different account types
 
-### 5. Exception Handling and Debugging (1 hours)
-- Try-catch blocks
-- Throwing and catching exceptions
-- Debugging techniques in Visual Studio
-- Hands-on: Add exception handling to previous projects
-
-### 6. Working with Files and I/O (1 hours)
-- Reading and writing text files
-- Serialization and deserialization
-- Hands-on: Create a simple note-taking application with file storage
-
-### 7. Asyn/Await and Concurrent programming (2 hours)
 
 ## Part 2: ASP.NET Core Razor Pages with Entity Framework
 
