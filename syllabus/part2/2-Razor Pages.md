@@ -1,5 +1,4 @@
-Here's a detailed explanation of each topic related to ASP.NET Core 8.0 and Razor Pages, along with examples in C#:
-
+## Razor Pages ##
 ### 1. Razor Syntax
 Razor is a markup syntax for embedding server-based code into webpages. It provides a compact syntax for writing HTML and C# code together. Razor syntax begins with the `@` symbol and is simple to use.
 
