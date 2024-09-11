@@ -137,6 +137,155 @@ public class RecentPostsViewComponent : ViewComponent
 ### 9. Routing in Razor Pages
 Routing in Razor Pages is based on the folder and file structure. Pages can be accessed via URLs that map to their locations in the `Pages` folder.
 
+Razor Pages is a page-based model for building web UI in ASP.NET Core. Routing in Razor Pages determines how URLs are mapped to page files in your project. It's simpler and more convention-based compared to MVC routing.
+
+Let's go through the basics of Razor Pages routing with examples:
+
+1. Convention-based routing:
+
+By default, Razor Pages uses a convention-based routing system. The route is determined by the file's location in the project structure.
+
+```csharp
+// File: Pages/Index.cshtml
+@page
+<h1>Welcome to the home page!</h1>
+
+// File: Pages/About.cshtml
+@page
+<h1>About Us</h1>
+
+// File: Pages/Products/List.cshtml
+@page
+<h1>Product List</h1>
+
+// File: Pages/Blog/Post.cshtml
+@page "{id:int}"
+@model PostModel
+<h1>Blog Post @Model.Id</h1>
+
+// File: Pages/Blog/Post.cshtml.cs
+public class PostModel : PageModel
+{
+    public int Id { get; set; }
+
+    public void OnGet(int id)
+    {
+        Id = id;
+    }
+}
+
+```
+
+In this example:
+
+- `/` routes to `Pages/Index.cshtml`
+- `/About` routes to `Pages/About.cshtml`
+- `/Products/List` routes to `Pages/Products/List.cshtml`
+- `/Blog/Post/1` routes to `Pages/Blog/Post.cshtml` with `id` parameter set to 1
+
+2. Custom routing:
+
+You can customize the route by adding parameters to the `@page` directive:
+
+```csharp
+@page "{category}/{id:int}"
+```
+
+This would match URLs like `/electronics/123`.
+
+3. Catch-all parameters:
+
+You can use catch-all parameters to capture multiple segments:
+
+```csharp
+@page "{*slug}"
+```
+
+This would match URLs like `/blog/2023/04/my-post-title`.
+
+4. Optional parameters:
+
+You can make parameters optional by adding a `?`:
+
+```csharp
+@page "{id:int?}"
+```
+
+This would match both `/products` and `/products/123`.
+
+5. Constraints:
+
+You can add constraints to parameters to restrict what they match:
+
+```csharp
+@page "{id:int:range(1,100)}"
+```
+
+This would only match if the `id` is between 1 and 100.
+
+6. Named routes:
+
+You can give a route a name for easier URL generation:
+
+```csharp
+@page "/products/{id:int}" Name="ProductDetails"
+```
+
+Then in your code or Razor views, you can generate URLs like this:
+
+```csharp
+<a asp-page="ProductDetails" asp-route-id="123">View Product</a>
+```
+
+7. Area routing:
+
+If you're using areas in your Razor Pages application, the routing takes the area into account:
+
+```
+/Areas/Admin/Pages/Index.cshtml -> /Admin
+/Areas/Admin/Pages/Users/List.cshtml -> /Admin/Users/List
+```
+
+To configure Razor Pages routing in your `Startup.cs` or `Program.cs` (depending on your .NET version), you typically don't need to do anything special. The default configuration is usually sufficient:
+
+```csharp
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+});
+```
+
+This sets up the conventional routing for Razor Pages.
+```csharp
+// File: Pages/Index.cshtml
+@page
+<h1>Welcome to the home page!</h1>
+
+// File: Pages/About.cshtml
+@page
+<h1>About Us</h1>
+
+// File: Pages/Products/List.cshtml
+@page
+<h1>Product List</h1>
+
+// File: Pages/Blog/Post.cshtml
+@page "{id:int}"
+@model PostModel
+<h1>Blog Post @Model.Id</h1>
+
+// File: Pages/Blog/Post.cshtml.cs
+public class PostModel : PageModel
+{
+    public int Id { get; set; }
+
+    public void OnGet(int id)
+    {
+        Id = id;
+    }
+}
+```
+
 ### 10. Conventional Routing
 Conventional routing defines URL patterns that map to controllers and actions. It's more common in MVC applications, but Razor Pages also support it.
 
