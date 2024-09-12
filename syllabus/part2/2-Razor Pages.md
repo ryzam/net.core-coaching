@@ -343,19 +343,330 @@ public void OnPost()
 
 ### 17. Hands-On: Create a Simple CRUD Application for a "Todo" List
 
-#### 18. Designing the Todo Model
-Create a `Todo` model class.
+To implement CRUD operations for a "Todo" list in ASP.NET Core 8.0 using Razor Pages, we need to create separate Razor Pages for each of the operations: Listing, Creating, Editing, and Deleting. Below is a detailed guide to achieve this:
+
+### Step 1: Setting Up the Project and Model
+
+1. **Create an ASP.NET Core Razor Pages Project**:
+   - Use Visual Studio or the .NET CLI to create a new Razor Pages project.
+
+   ```bash
+   dotnet new webapp -n TodoApp
+   cd TodoApp
+   ```
+
+2. **Add a Todo Model**:
+   - Create a new folder named `Models`.
+   - Add a class named `Todo.cs` in the `Models` folder.
+
+   ```csharp
+   namespace TodoApp.Models
+   {
+       public class Todo
+       {
+           public int Id { get; set; }
+           public string Title { get; set; }
+           public bool IsCompleted { get; set; }
+       }
+   }
+   ```
+
+3. **Set Up a Simple Data Store**:
+   - For simplicity, let's use an in-memory list to store the "Todo" items. In a real application, you would use a database (e.g., SQLite, SQL Server, or PostgreSQL).
+
+### Step 2: Implementing the CRUD Pages
+
+#### 1. List Todos (Index Page)
+
+1. **Create the Index Razor Page**:
+   - Add a new Razor Page named `Index.cshtml` in the `Pages/Todos` folder.
+
+2. **Index Page Model (`Index.cshtml.cs`)**:
+   - This Page Model will retrieve the list of Todos and pass them to the view.
+
+   ```csharp
+   using Microsoft.AspNetCore.Mvc.RazorPages;
+   using TodoApp.Models;
+
+   namespace TodoApp.Pages.Todos
+   {
+       public class IndexModel : PageModel
+       {
+           public List<Todo> Todos { get; set; } = new List<Todo>();
+
+           public void OnGet()
+           {
+               // Simulating data retrieval from a data source
+               Todos = TodoDataStore.GetAllTodos();
+           }
+       }
+   }
+   ```
+
+3. **Index Page View (`Index.cshtml`)**:
+   - Display the list of Todos and provide links to Create, Edit, and Delete actions.
+
+   ```csharp
+   @page
+   @model TodoApp.Pages.Todos.IndexModel
+
+   <h2>Todo List</h2>
+   <a asp-page="Create">Create New Todo</a>
+
+   <table>
+       <thead>
+           <tr>
+               <th>Title</th>
+               <th>Completed</th>
+               <th>Actions</th>
+           </tr>
+       </thead>
+       <tbody>
+           @foreach (var todo in Model.Todos)
+           {
+               <tr>
+                   <td>@todo.Title</td>
+                   <td>@todo.IsCompleted</td>
+                   <td>
+                       <a asp-page="Edit" asp-route-id="@todo.Id">Edit</a> |
+                       <a asp-page="Delete" asp-route-id="@todo.Id">Delete</a>
+                   </td>
+               </tr>
+           }
+       </tbody>
+   </table>
+   ```
+
+#### 2. Create a New Todo (Create Page)
+
+1. **Create the Create Razor Page**:
+   - Add a new Razor Page named `Create.cshtml` in the `Pages/Todos` folder.
+
+2. **Create Page Model (`Create.cshtml.cs`)**:
+   - This Page Model handles the GET request to display the form and the POST request to create a new Todo.
+
+   ```csharp
+   using Microsoft.AspNetCore.Mvc;
+   using Microsoft.AspNetCore.Mvc.RazorPages;
+   using TodoApp.Models;
+
+   namespace TodoApp.Pages.Todos
+   {
+       public class CreateModel : PageModel
+       {
+           [BindProperty]
+           public Todo NewTodo { get; set; } = new Todo();
+
+           public IActionResult OnPost()
+           {
+               if (!ModelState.IsValid)
+               {
+                   return Page();
+               }
+
+               TodoDataStore.AddTodo(NewTodo);
+               return RedirectToPage("Index");
+           }
+       }
+   }
+   ```
+
+3. **Create Page View (`Create.cshtml`)**:
+   - Display a form to create a new Todo.
+
+   ```csharp
+   @page
+   @model TodoApp.Pages.Todos.CreateModel
+
+   <h2>Create New Todo</h2>
+
+   <form method="post">
+       <div>
+           <label asp-for="NewTodo.Title"></label>
+           <input asp-for="NewTodo.Title" />
+           <span asp-validation-for="NewTodo.Title"></span>
+       </div>
+       <div>
+           <label asp-for="NewTodo.IsCompleted"></label>
+           <input asp-for="NewTodo.IsCompleted" type="checkbox" />
+       </div>
+       <button type="submit">Create</button>
+   </form>
+   ```
+
+#### 3. Edit an Existing Todo (Edit Page)
+
+1. **Create the Edit Razor Page**:
+   - Add a new Razor Page named `Edit.cshtml` in the `Pages/Todos` folder.
+
+2. **Edit Page Model (`Edit.cshtml.cs`)**:
+   - This Page Model handles the GET request to display the Todo details and the POST request to update it.
+
+   ```csharp
+   using Microsoft.AspNetCore.Mvc;
+   using Microsoft.AspNetCore.Mvc.RazorPages;
+   using TodoApp.Models;
+
+   namespace TodoApp.Pages.Todos
+   {
+       public class EditModel : PageModel
+       {
+           [BindProperty]
+           public Todo Todo { get; set; }
+
+           public IActionResult OnGet(int id)
+           {
+               Todo = TodoDataStore.GetTodoById(id);
+               if (Todo == null)
+               {
+                   return RedirectToPage("Index");
+               }
+               return Page();
+           }
+
+           public IActionResult OnPost()
+           {
+               if (!ModelState.IsValid)
+               {
+                   return Page();
+               }
+
+               TodoDataStore.UpdateTodo(Todo);
+               return RedirectToPage("Index");
+           }
+       }
+   }
+   ```
+
+3. **Edit Page View (`Edit.cshtml`)**:
+   - Display a form to edit an existing Todo.
+
+   ```csharp
+   @page
+   @model TodoApp.Pages.Todos.EditModel
+
+   <h2>Edit Todo</h2>
+
+   <form method="post">
+       <div>
+           <label asp-for="Todo.Title"></label>
+           <input asp-for="Todo.Title" />
+           <span asp-validation-for="Todo.Title"></span>
+       </div>
+       <div>
+           <label asp-for="Todo.IsCompleted"></label>
+           <input asp-for="Todo.IsCompleted" type="checkbox" />
+       </div>
+       <button type="submit">Save</button>
+   </form>
+   ```
+
+#### 4. Delete a Todo (Delete Page)
+
+1. **Create the Delete Razor Page**:
+   - Add a new Razor Page named `Delete.cshtml` in the `Pages/Todos` folder.
+
+2. **Delete Page Model (`Delete.cshtml.cs`)**:
+   - This Page Model handles the GET request to display the Todo and the POST request to delete it.
+
+   ```csharp
+   using Microsoft.AspNetCore.Mvc;
+   using Microsoft.AspNetCore.Mvc.RazorPages;
+   using TodoApp.Models;
+
+   namespace TodoApp.Pages.Todos
+   {
+       public class DeleteModel : PageModel
+       {
+           [BindProperty]
+           public Todo Todo { get; set; }
+
+           public IActionResult OnGet(int id)
+           {
+               Todo = TodoDataStore.GetTodoById(id);
+               if (Todo == null)
+               {
+                   return RedirectToPage("Index");
+               }
+               return Page();
+           }
+
+           public IActionResult OnPost(int id)
+           {
+               TodoDataStore.DeleteTodoById(id);
+               return RedirectToPage("Index");
+           }
+       }
+   }
+   ```
+
+3. **Delete Page View (`Delete.cshtml`)**:
+   - Display a confirmation message to delete a Todo.
+
+   ```csharp
+   @page
+   @model TodoApp.Pages.Todos.DeleteModel
+
+   <h2>Delete Todo</h2>
+
+   <p>Are you sure you want to delete this todo?</p>
+   <form method="post">
+       <button type="submit">Delete</button>
+       <a asp-page="Index">Cancel</a>
+   </form>
+   ```
+
+### Step 3: Create a Data Store Class for Managing Todos
+
+- **TodoDataStore.cs**:
+  Create a simple in-memory data store for demonstration purposes.
+
 ```csharp
-public class Todo
+using System.Collections.Generic;
+using System.Linq;
+using TodoApp.Models;
+
+namespace TodoApp
 {
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public bool IsCompleted { get; set; }
+    public static class TodoDataStore
+    {
+        private static List<Todo> Todos = new List<Todo>();
+
+        public static List<Todo> GetAllTodos() => Todos;
+
+        public static Todo GetTodoById(int id) => Todos.FirstOrDefault(t => t.Id == id);
+
+        public static void AddTodo(Todo todo)
+        {
+            todo.Id = Todos.Count > 0 ? Todos.Max(t => t.Id) + 1 : 1;
+            Todos.Add(todo);
+        }
+
+        public static void UpdateTodo(Todo todo)
+        {
+            var existingTodo = GetTodoById(todo.Id);
+            if (existingTodo != null)
+            {
+                existingTodo.Title = todo.Title;
+                existingTodo.IsCompleted = todo.IsCompleted;
+            }
+        }
+
+        public static void DeleteTodoById(int id)
+        {
+            var todo = GetTodoById(id);
+            if (todo != null)
+            {
+                Todos.Remove(todo);
+            }
+        }
+    }
 }
 ```
 
-#### 19. Implementing Pages for Listing, Creating, Editing, and Deleting Todos
-Create Razor Pages for each CRUD operation: List, Create, Edit, Delete.
+### Step 4:
 
-#### 20. Using Forms and Model Binding for Data Input
-Forms are used in `Create` and `Edit` pages, and model binding is utilized to bind form data to the `Todo` model.
+ Test the Application
+
+- Run the application and navigate to `/Todos/Index` to see the list of Todos.
+- You can create, edit, and delete Todos by using the corresponding pages.
