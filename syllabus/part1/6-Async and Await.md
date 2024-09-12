@@ -39,6 +39,49 @@ In this example:
 - `FetchDataAsync` simulates an asynchronous operation using `Task.Delay()`. The method does not block the calling thread.
 - When `await Task.Delay(2000)` is encountered, the control is returned to the caller (`RunAsync`), allowing it to perform other tasks if needed.
 
+`FetchDataAsync()` does **not** necessarily run on a different thread. It starts on the **same thread** as the calling method, but the actual behavior of `async`/`await` is more nuanced. Let’s break down the code to understand how `async`/`await` works here:
+
+### **Code Analysis**
+
+1. **`FetchDataAsync` Method:**
+   - This method is marked as `async` and contains an `await` statement for `Task.Delay(2000)`.
+   - `Task.Delay` is an **asynchronous I/O-bound operation** that simulates a delay (e.g., waiting for an I/O operation to complete, such as reading from a network or database).
+
+2. **Execution Flow:**
+   - When `FetchDataAsync()` is called, it starts executing on the **same thread** (e.g., the main thread if called from `RunAsync`).
+   - It prints "Starting to fetch data..." to the console on the **current thread**.
+   - Then, it encounters the `await Task.Delay(2000);` line.
+
+3. **What Happens When `await` is Reached:**
+   - At the `await` point, `Task.Delay` starts a timer asynchronously. The current thread (main thread) is **released back to the thread pool** and is free to perform other tasks.
+   - No additional thread is created by `Task.Delay`. The delay is handled by the system using a timer and a callback mechanism.
+   - After 2 seconds, when the delay completes, the **continuation** (i.e., the rest of the `FetchDataAsync` method after the `await`) is **scheduled** to run.
+
+4. **Resumption After `await`:**
+   - The code after `await` (printing "Data fetched successfully." and returning `42`) is executed on a **ThreadPool** thread. The **ThreadPool** decides which thread to use based on availability and context. This might be the original thread if it is free, or it could be a different thread from the pool.
+
+5. **Calling `RunAsync` Method:**
+   - `RunAsync` calls `FetchDataAsync` using `await`, so it will also execute on the **same thread** until it hits the `await FetchDataAsync();`.
+   - At this point, `RunAsync` yields control back to its caller (if any), and the calling thread is freed up while waiting for `FetchDataAsync` to complete.
+   - After `FetchDataAsync` completes, the continuation of `RunAsync` (printing the result) will also be scheduled on a **ThreadPool** thread.
+
+### **Summary: Same Thread or Different Thread?**
+
+- **Initial Execution:**
+  - `FetchDataAsync()` starts executing on the **same thread** as `RunAsync`.
+
+- **When `await Task.Delay(2000)` is Hit:**
+  - The **current thread (main thread)** is released back to the thread pool.
+  - No new thread is created; the method execution is paused, and the thread is freed up.
+
+- **Resumption After `await`:**
+  - After the delay, the rest of the method (`FetchDataAsync`) is executed on a **ThreadPool** thread. This could be the same thread or a different thread, depending on what the ThreadPool decides.
+
+- **Key Point:** `async`/`await` **does not create new threads** by itself. It uses the **current thread** until `await` is hit, and after `await`, the remaining code is executed on a **ThreadPool** thread.
+
+### **Conclusion:**
+In your example, `FetchDataAsync()` starts and executes on the **same thread** as `RunAsync` until it encounters `await Task.Delay(2000)`. After the `await`, the continuation of `FetchDataAsync` runs on a **ThreadPool** thread, which might be the same or a different thread, depending on the thread pool's state.
+
 ### **2. Concurrency (Parallel Programming)**
 
 - **Concurrency** refers to executing multiple tasks at the same time but not necessarily simultaneously. It allows multiple tasks to make progress without necessarily executing them at the exact same instant.
