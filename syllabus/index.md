@@ -28,6 +28,14 @@
 - Polymorphism
 - Hands-on: Extend the "Bank Account" example with different account types
 
+### 5. Async/Await (2 hours)
+- async/await (Asynchronous Programming)
+- Concurrency (Parallel Programming)
+
+### 6. Concurrent and Parallel (2 hours
+- Concurrent Programming in C# .NET Core
+- Parallel Programming in C# .NET Core
+- Combining Concurrency and Parallelism
 
 ## Part 2: ASP.NET Core Razor Pages with Entity Framework
 
