@@ -78,8 +78,7 @@ public async Task AddTodoAsync(Todo todo)
 
 #### Steps to Implement:
 
-
-#### 1. **Set up the Project**
+1. **Set up the Project**
 
 First, create a new .NET 8.0 project if you haven't already:
 
@@ -206,5 +205,3 @@ app.Run();
    - Use Postman or Swagger to test the API for CRUD operations (e.g., create a new Todo, update it, fetch all Todos, delete a Todo, etc.).
 
 ---
-
-With this setup, you will have implemented a complete CRUD functionality for a "Todo" application using Entity Framework Core with asynchronous operations. This architecture is scalable, efficient, and aligns well with modern web API practices.
