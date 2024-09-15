@@ -78,14 +78,22 @@ public async Task AddTodoAsync(Todo todo)
 
 #### Steps to Implement:
 
-1. **Set up the project**:
-   - Create a .NET Core Web API project using Visual Studio or the CLI.
-   - Install the required NuGet packages for EF Core and PostgreSQL.
 
-     ```bash
-     dotnet add package Microsoft.EntityFrameworkCore
-     dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
-     ```
+#### 1. **Set up the Project**
+
+First, create a new .NET 8.0 project if you haven't already:
+
+```bash
+dotnet new webapi -n TodoAppMinimal
+```
+
+Install the necessary NuGet packages for Entity Framework Core and PostgreSQL:
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+
 
 2. **Define the "Todo" Model**:
    - Create a simple model for the Todo item.
@@ -120,86 +128,79 @@ public async Task AddTodoAsync(Todo todo)
      }
      ```
 
-   - In `Startup.cs` or `Program.cs`, configure EF Core to use PostgreSQL.
-     ```csharp
-     services.AddDbContext<TodoContext>(options =>
-         options.UseNpgsql(Configuration.GetConnectionString("TodoContext")));
-     ```
+#### 5. **Set Up Dependency Injection in `Program.cs`**
 
-5. **Create the CRUD Endpoints**:
-   - Define the API controllers to handle CRUD operations. Here's an example for the `Todo` API:
+In the `Program.cs` file, configure your EF Core and PostgreSQL database context and define the minimal API routes.
 
-     ```csharp
-     [ApiController]
-     [Route("api/[controller]")]
-     public class TodosController : ControllerBase
-     {
-         private readonly TodoContext _context;
+```csharp
+using Microsoft.EntityFrameworkCore;
 
-         public TodosController(TodoContext context)
-         {
-             _context = context;
-         }
+var builder = WebApplication.CreateBuilder(args);
 
-         // GET: api/todos
-         [HttpGet]
-         public async Task<ActionResult<IEnumerable<Todo>>> GetTodos()
-         {
-             return await _context.Todos.ToListAsync();
-         }
+// Use SQL Server (LocalDB) instead of PostgreSQL
+builder.Services.AddDbContext<TodoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TodoContext")));
 
-         // GET: api/todos/{id}
-         [HttpGet("{id}")]
-         public async Task<ActionResult<Todo>> GetTodoById(int id)
-         {
-             var todo = await _context.Todos.FindAsync(id);
-             if (todo == null) return NotFound();
-             return todo;
-         }
+var app = builder.Build();
 
-         // POST: api/todos
-         [HttpPost]
-         public async Task<ActionResult<Todo>> AddTodo(Todo todo)
-         {
-             _context.Todos.Add(todo);
-             await _context.SaveChangesAsync();
-             return CreatedAtAction(nameof(GetTodoById), new { id = todo.Id }, todo);
-         }
+// Enable routing and endpoints
+app.UseHttpsRedirection();
 
-         // PUT: api/todos/{id}
-         [HttpPut("{id}")]
-         public async Task<IActionResult> UpdateTodo(int id, Todo updatedTodo)
-         {
-             if (id != updatedTodo.Id) return BadRequest();
+// CRUD Endpoints here...
 
-             _context.Entry(updatedTodo).State = EntityState.Modified;
+app.MapGet("/", () => "Welcome to the Todo Minimal API!");
 
-             try
-             {
-                 await _context.SaveChangesAsync();
-             }
-             catch (DbUpdateConcurrencyException)
-             {
-                 if (!_context.Todos.Any(t => t.Id == id)) return NotFound();
-                 else throw;
-             }
+// CRUD Endpoints
 
-             return NoContent();
-         }
+// GET: api/todos - Get all Todos
+app.MapGet("/api/todos", async (TodoContext context) =>
+{
+    return await context.Todos.ToListAsync();
+});
 
-         // DELETE: api/todos/{id}
-         [HttpDelete("{id}")]
-         public async Task<IActionResult> DeleteTodoById(int id)
-         {
-             var todo = await _context.Todos.FindAsync(id);
-             if (todo == null) return NotFound();
+// GET: api/todos/{id} - Get Todo by Id
+app.MapGet("/api/todos/{id}", async (int id, TodoContext context) =>
+{
+    var todo = await context.Todos.FindAsync(id);
+    return todo is not null ? Results.Ok(todo) : Results.NotFound();
+});
 
-             _context.Todos.Remove(todo);
-             await _context.SaveChangesAsync();
-             return NoContent();
-         }
-     }
-     ```
+// POST: api/todos - Create new Todo
+app.MapPost("/api/todos", async (Todo todo, TodoContext context) =>
+{
+    context.Todos.Add(todo);
+    await context.SaveChangesAsync();
+    return Results.Created($"/api/todos/{todo.Id}", todo);
+});
+
+// PUT: api/todos/{id} - Update Todo by Id
+app.MapPut("/api/todos/{id}", async (int id, Todo updatedTodo, TodoContext context) =>
+{
+    var todo = await context.Todos.FindAsync(id);
+    if (todo is null) return Results.NotFound();
+
+    todo.Title = updatedTodo.Title;
+    todo.Description = updatedTodo.Description;
+    todo.IsComplete = updatedTodo.IsComplete;
+
+    await context.SaveChangesAsync();
+    return Results.NoContent();
+});
+
+// DELETE: api/todos/{id} - Delete Todo by Id
+app.MapDelete("/api/todos/{id}", async (int id, TodoContext context) =>
+{
+    var todo = await context.Todos.FindAsync(id);
+    if (todo is null) return Results.NotFound();
+
+    context.Todos.Remove(todo);
+    await context.SaveChangesAsync();
+    return Results.NoContent();
+});
+
+// Run the application
+app.Run();
+```
 
 6. **Run and Test the Application**:
    - Use Postman or Swagger to test the API for CRUD operations (e.g., create a new Todo, update it, fetch all Todos, delete a Todo, etc.).
