@@ -1,5 +1,7 @@
 The terms **concurrent** and **parallel** are often used interchangeably in programming, but they represent different approaches to task execution. Here's a breakdown of the differences between **concurrent** and **parallel** programming:
 
+![image](https://github.com/user-attachments/assets/f57ef9f7-2bac-4347-9d6d-fd6bfc729a3d)
+
 ### 1. **Concurrent Programming**
 
 **Concurrency** refers to a system where multiple tasks or processes are in progress at the same time, but not necessarily executing simultaneously. Concurrency focuses on **dealing with multiple tasks** by **switching between them** rapidly. These tasks may be interleaved or take turns sharing the CPU's time, giving the appearance of simultaneous execution, but they may not actually run at the same time.
@@ -57,7 +59,7 @@ In practice, many modern systems use both **concurrency** and **parallelism** to
 
 - **Concurrent programming** is about **structuring programs** to handle multiple tasks by interleaving or switching between them.
 - **Parallel programming** is about **executing tasks simultaneously** across multiple cores or processors to achieve faster performance.
-- **parallel programming** does not necessarily mean that all tasks must start at exactly the same time. It means that **multiple tasks can run simultaneously** across different processors or cores. The tasks **may start at different times** and can **finish at different times** based on how long each task takes to complete.
+- **Parallel programming** does not necessarily mean that all tasks must start at exactly the same time. It means that **multiple tasks can run simultaneously** across different processors or cores. The tasks **may start at different times** and can **finish at different times** based on how long each task takes to complete.
 - **Parallel tasks** can start and finish at different times.
 - The key point is that tasks **run simultaneously** on separate cores or processors, rather than being strictly dependent on synchronized start times.
 
