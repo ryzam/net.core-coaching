@@ -1,0 +1,16 @@
+﻿@page
+@model SimpleCRUDTodoList.Pages.Todos.EditModel
+<h2>Edit Todo</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="Todo.Title"></label>
+        <input asp-for="Todo.Title" />
+        <span asp-validation-for="Todo.Title"></span>
+    </div>
+    <div>
+        <label asp-for="Todo.IsCompleted"></label>
+        <input asp-for="Todo.IsCompleted" type="checkbox" />
+    </div>
+    <button type="submit">Save</button>
+</form>

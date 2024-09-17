@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\pages\\todos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\pages\\todos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\datastores\\tododatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\datastores\\tododatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\simplecrudtodolist\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{363A62ED-B38B-462B-8687-2B3B76EB7830}|part2\\SimpleCRUDTodoList\\SimpleCRUDTodoList.csproj|solutionrelative:part2\\simplecrudtodolist\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD598E02-701E-4994-8356-3829B1401EB2}|part1\\ParallelWithAsync\\ParallelWithAsync.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\parallelwithasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD598E02-701E-4994-8356-3829B1401EB2}|part1\\ParallelWithAsync\\ParallelWithAsync.csproj|solutionrelative:part1\\parallelwithasync\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA5EA343-A8CE-48D7-A80A-8C3A76EA908F}|part1\\AsyncWithoutAwait\\AsyncWithoutAwait.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\asyncwithoutawait\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA5EA343-A8CE-48D7-A80A-8C3A76EA908F}|part1\\AsyncWithoutAwait\\AsyncWithoutAwait.csproj|solutionrelative:part1\\asyncwithoutawait\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53E76516-DD2F-4FC1-BAD2-36D665E2DDE4}|part1\\ConcurrentAndParallel\\ConcurrentAndParallel.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\concurrentandparallel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53E76516-DD2F-4FC1-BAD2-36D665E2DDE4}|part1\\ConcurrentAndParallel\\ConcurrentAndParallel.csproj|solutionrelative:part1\\concurrentandparallel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6711D12E-44AE-431B-88D3-CE6D7F0E4BEC}|part1\\AsyncAwait\\AsyncAwait.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\asyncawait\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6711D12E-44AE-431B-88D3-CE6D7F0E4BEC}|part1\\AsyncAwait\\AsyncAwait.csproj|solutionrelative:part1\\asyncawait\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27119208-C1AC-44B2-B417-0506039F04FE}|part1\\ObjectOrientedConcept\\ObjectOrientedConcept.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\objectorientedconcept\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27119208-C1AC-44B2-B417-0506039F04FE}|part1\\ObjectOrientedConcept\\ObjectOrientedConcept.csproj|solutionrelative:part1\\objectorientedconcept\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4471D6B-AC75-4024-B9A8-A9C96D85F37F}|part1\\InheritanceAndPolymorphism\\InheritanceAndPolymorphism.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\inheritanceandpolymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4471D6B-AC75-4024-B9A8-A9C96D85F37F}|part1\\InheritanceAndPolymorphism\\InheritanceAndPolymorphism.csproj|solutionrelative:part1\\inheritanceandpolymorphism\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4692981D-B5D8-4CC9-A686-9FCBDEAE5065}|part2\\Basic\\Basic.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4692981D-B5D8-4CC9-A686-9FCBDEAE5065}|part2\\Basic\\Basic.csproj|solutionrelative:part2\\basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0280BACC-BC9B-4003-844C-A58601771986}|part1\\Introduction\\Introduction.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part1\\introduction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0280BACC-BC9B-4003-844C-A58601771986}|part1\\Introduction\\Introduction.csproj|solutionrelative:part1\\introduction\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:17:02.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T00:16:59.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:15:30.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T00:15:25.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T00:13:33.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:09:15.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T00:08:56.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TodoDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\DataStores\\TodoDataStore.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\DataStores\\TodoDataStore.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\DataStores\\TodoDataStore.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\DataStores\\TodoDataStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:06:52.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:05:27.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Pages\\Todos\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T00:05:04.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Todo.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Models\\Todo.cs",
+              "RelativeDocumentMoniker": "part2\\SimpleCRUDTodoList\\Models\\Todo.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\SimpleCRUDTodoList\\Models\\Todo.cs",
+              "RelativeToolTip": "part2\\SimpleCRUDTodoList\\Models\\Todo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T00:03:47.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\ParallelWithAsync\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\Program.cs",
+              "RelativeToolTip": "part1\\ParallelWithAsync\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:58:10.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\AsyncWithoutAwait\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\Program.cs",
+              "RelativeToolTip": "part1\\AsyncWithoutAwait\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:55:18.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\ConcurrentAndParallel\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\Program.cs",
+              "RelativeToolTip": "part1\\ConcurrentAndParallel\\Program.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwCIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:46:11.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncAwait\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\AsyncAwait\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncAwait\\Program.cs",
+              "RelativeToolTip": "part1\\AsyncAwait\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:39:41.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\InheritanceAndPolymorphism\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\Program.cs",
+              "RelativeToolTip": "part1\\InheritanceAndPolymorphism\\Program.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwH4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:35:59.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\ObjectOrientedConcept\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\Program.cs",
+              "RelativeToolTip": "part1\\ObjectOrientedConcept\\Program.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAYwE8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:33:44.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\Basic\\Program.cs",
+              "RelativeDocumentMoniker": "part2\\Basic\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\Basic\\Program.cs",
+              "RelativeToolTip": "part2\\Basic\\Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAgwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:30:37.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\Program.cs",
+              "RelativeDocumentMoniker": "part1\\Introduction\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\Program.cs",
+              "RelativeToolTip": "part1\\Introduction\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T23:20:02.763Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

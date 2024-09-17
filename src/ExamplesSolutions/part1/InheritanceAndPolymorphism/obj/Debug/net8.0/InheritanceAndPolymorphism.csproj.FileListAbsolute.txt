@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\bin\Debug\net8.0\InheritanceAndPolymorphism.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\bin\Debug\net8.0\InheritanceAndPolymorphism.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\bin\Debug\net8.0\InheritanceAndPolymorphism.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\bin\Debug\net8.0\InheritanceAndPolymorphism.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\bin\Debug\net8.0\InheritanceAndPolymorphism.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\refint\InheritanceAndPolymorphism.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\InheritanceAndPolymorphism.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\InheritanceAndPolymorphism\obj\Debug\net8.0\ref\InheritanceAndPolymorphism.dll
