@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\bin\Debug\net8.0\8-ParallelWithAsync.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\bin\Debug\net8.0\8-ParallelWithAsync.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\bin\Debug\net8.0\8-ParallelWithAsync.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\bin\Debug\net8.0\8-ParallelWithAsync.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\bin\Debug\net8.0\8-ParallelWithAsync.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\refint\8-ParallelWithAsync.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\8-ParallelWithAsync.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\ParallelWithAsync\obj\Debug\net8.0\ref\8-ParallelWithAsync.dll

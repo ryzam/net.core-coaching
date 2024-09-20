@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\bin\Debug\net8.0\2-Basic.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\bin\Debug\net8.0\2-Basic.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\bin\Debug\net8.0\2-Basic.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\bin\Debug\net8.0\2-Basic.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\bin\Debug\net8.0\2-Basic.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\refint\2-Basic.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\2-Basic.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part2\Basic\obj\Debug\net8.0\ref\2-Basic.dll

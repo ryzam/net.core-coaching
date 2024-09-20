@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\ObjectOrientedConcept.csproj",
-      "projectName": "ObjectOrientedConcept",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\ObjectOrientedConcept.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
+      "projectName": "3-ObjectOrientedConcept",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\obj\\",
       "projectStyle": "PackageReference",

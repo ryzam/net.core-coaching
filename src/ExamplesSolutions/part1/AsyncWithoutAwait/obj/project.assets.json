@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\AsyncWithoutAwait.csproj",
-      "projectName": "AsyncWithoutAwait",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\AsyncWithoutAwait.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
+      "projectName": "7-AsyncWithoutAwait",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\obj\\",
       "projectStyle": "PackageReference",

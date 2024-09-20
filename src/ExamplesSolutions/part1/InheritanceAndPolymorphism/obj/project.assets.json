@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\InheritanceAndPolymorphism.csproj",
-      "projectName": "InheritanceAndPolymorphism",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\InheritanceAndPolymorphism.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
+      "projectName": "4-InheritanceAndPolymorphism",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\obj\\",
       "projectStyle": "PackageReference",

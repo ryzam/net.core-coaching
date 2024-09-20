@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\bin\Debug\net8.0\7-AsyncWithoutAwait.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\bin\Debug\net8.0\7-AsyncWithoutAwait.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\bin\Debug\net8.0\7-AsyncWithoutAwait.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\bin\Debug\net8.0\7-AsyncWithoutAwait.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\bin\Debug\net8.0\7-AsyncWithoutAwait.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\refint\7-AsyncWithoutAwait.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\7-AsyncWithoutAwait.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\AsyncWithoutAwait\obj\Debug\net8.0\ref\7-AsyncWithoutAwait.dll

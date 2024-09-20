@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\bin\Debug\net8.0\1-Introduction.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\bin\Debug\net8.0\1-Introduction.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\bin\Debug\net8.0\1-Introduction.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\bin\Debug\net8.0\1-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\bin\Debug\net8.0\1-Introduction.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\refint\1-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\1-Introduction.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\Introduction\obj\Debug\net8.0\ref\1-Introduction.dll

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\Introduction.csproj",
-      "projectName": "Introduction",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\Introduction.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\1-Introduction.csproj",
+      "projectName": "1-Introduction",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\1-Introduction.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\Introduction\\obj\\",
       "projectStyle": "PackageReference",

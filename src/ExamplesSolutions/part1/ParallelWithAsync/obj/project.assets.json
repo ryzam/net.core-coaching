@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\ParallelWithAsync.csproj",
-      "projectName": "ParallelWithAsync",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\ParallelWithAsync.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\8-ParallelWithAsync.csproj",
+      "projectName": "8-ParallelWithAsync",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\8-ParallelWithAsync.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\obj\\",
       "projectStyle": "PackageReference",
