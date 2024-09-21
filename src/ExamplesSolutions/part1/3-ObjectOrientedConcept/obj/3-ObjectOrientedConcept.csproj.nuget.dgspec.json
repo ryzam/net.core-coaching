@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj": {}
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\3-ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj": {
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\3-ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
+        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\3-ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
         "projectName": "3-ObjectOrientedConcept",
-        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
+        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\3-ObjectOrientedConcept\\3-ObjectOrientedConcept.csproj",
         "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ObjectOrientedConcept\\obj\\",
+        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\3-ObjectOrientedConcept\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\irwanazam\\AppData\\Roaming\\NuGet\\NuGet.Config",

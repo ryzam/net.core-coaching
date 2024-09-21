@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj": {}
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj": {
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
+        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
         "projectName": "7-AsyncWithoutAwait",
-        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
+        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
         "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\obj\\",
+        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\irwanazam\\AppData\\Roaming\\NuGet\\NuGet.Config",

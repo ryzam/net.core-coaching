@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pDWWzsms6Ac=",
+  "dgSpecHash": "ZzM7J4WaVnA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
+  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\6-ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

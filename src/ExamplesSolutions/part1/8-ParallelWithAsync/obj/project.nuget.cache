@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9lTTuzEIH3s=",
+  "dgSpecHash": "H9Cgw/CjA/I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ParallelWithAsync\\8-ParallelWithAsync.csproj",
+  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\8-ParallelWithAsync\\8-ParallelWithAsync.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

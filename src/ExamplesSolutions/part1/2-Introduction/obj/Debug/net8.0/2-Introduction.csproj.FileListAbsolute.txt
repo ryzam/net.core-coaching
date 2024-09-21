@@ -1,0 +1,15 @@
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\bin\Debug\net8.0\2-Introduction.exe
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\bin\Debug\net8.0\2-Introduction.deps.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\bin\Debug\net8.0\2-Introduction.runtimeconfig.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\bin\Debug\net8.0\2-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\bin\Debug\net8.0\2-Introduction.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.AssemblyInfoInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.AssemblyInfo.cs
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.csproj.CoreCompileInputs.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.sourcelink.json
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\refint\2-Introduction.dll
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.pdb
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\2-Introduction.genruntimeconfig.cache
+C:\Users\irwanazam\source\repos\netcoretraining\src\ExamplesSolutions\part1\2-Introduction\obj\Debug\net8.0\ref\2-Introduction.dll

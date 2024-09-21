@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\migrations\\20240921021032_create_initial_dbschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\migrations\\20240921021032_create_initial_dbschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\pages\\organizations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\pages\\organizations\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\datas\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\datas\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\domains\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\domains\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|c:\\users\\irwanazam\\source\\repos\\netcoretraining\\src\\examplessolutions\\part2\\4-demodatabasefromscratch\\demodatabasefromscratch\\demodatabasefromscratch\\domains\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B73A11F0-9773-4ED4-83AA-FB47E9F06011}|DemoDatabaseFromScratch\\DemoDatabaseFromScratch.csproj|solutionrelative:demodatabasefromscratch\\domains\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240921021032_Create_Initial_DbSchema.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Migrations\\20240921021032_Create_Initial_DbSchema.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Migrations\\20240921021032_Create_Initial_DbSchema.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Migrations\\20240921021032_Create_Initial_DbSchema.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Migrations\\20240921021032_Create_Initial_DbSchema.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:10:33.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:07:44.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:07:44.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.Development.json",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T01:56:01.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:07:44.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:07:43.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:07:41.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:07:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:07:43.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:07:43.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T02:07:42.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Pages\\Organizations\\Create.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:07:42.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Program.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Program.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Program.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T02:01:57.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.Production.json",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T01:58:39.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.json",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\appsettings.json",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\appsettings.json",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T01:56:32.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Datas\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Datas\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Datas\\EmployeeDbContext.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Datas\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:47:14.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Domains\\Employee.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Domains\\Employee.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Domains\\Employee.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Domains\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:29:06.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Domains\\Organization.cs",
+              "RelativeDocumentMoniker": "DemoDatabaseFromScratch\\Domains\\Organization.cs",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\4-DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\DemoDatabaseFromScratch\\Domains\\Organization.cs",
+              "RelativeToolTip": "DemoDatabaseFromScratch\\Domains\\Organization.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:27:38.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

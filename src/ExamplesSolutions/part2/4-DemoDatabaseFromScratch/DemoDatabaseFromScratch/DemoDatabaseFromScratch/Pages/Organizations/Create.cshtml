@@ -1,0 +1,64 @@
+﻿@page
+@model DemoDatabaseFromScratch.Pages.Organizations.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Organization</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Organization.Name" class="control-label"></label>
+                <input asp-for="Organization.Name" class="form-control" />
+                <span asp-validation-for="Organization.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.TelephoneNo" class="control-label"></label>
+                <input asp-for="Organization.TelephoneNo" class="form-control" />
+                <span asp-validation-for="Organization.TelephoneNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.Email" class="control-label"></label>
+                <input asp-for="Organization.Email" class="form-control" />
+                <span asp-validation-for="Organization.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.Address" class="control-label"></label>
+                <input asp-for="Organization.Address" class="form-control" />
+                <span asp-validation-for="Organization.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.City" class="control-label"></label>
+                <input asp-for="Organization.City" class="form-control" />
+                <span asp-validation-for="Organization.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.State" class="control-label"></label>
+                <input asp-for="Organization.State" class="form-control" />
+                <span asp-validation-for="Organization.State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organization.ZipCode" class="control-label"></label>
+                <input asp-for="Organization.ZipCode" class="form-control" />
+                <span asp-validation-for="Organization.ZipCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

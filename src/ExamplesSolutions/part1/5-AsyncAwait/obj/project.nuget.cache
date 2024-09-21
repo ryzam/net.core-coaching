@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JeBgkz1fQ5M=",
+  "dgSpecHash": "35nW2u2Fzgo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncAwait\\5-AsyncAwait.csproj",
+  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\5-AsyncAwait\\5-AsyncAwait.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

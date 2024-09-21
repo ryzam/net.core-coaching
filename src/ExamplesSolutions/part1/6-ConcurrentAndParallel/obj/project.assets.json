@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\6-ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
       "projectName": "6-ConcurrentAndParallel",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\6-ConcurrentAndParallel\\6-ConcurrentAndParallel.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\ConcurrentAndParallel\\obj\\",
+      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\6-ConcurrentAndParallel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\irwanazam\\AppData\\Roaming\\NuGet\\NuGet.Config",

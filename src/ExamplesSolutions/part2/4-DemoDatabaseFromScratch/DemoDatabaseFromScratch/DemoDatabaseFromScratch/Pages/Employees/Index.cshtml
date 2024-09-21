@@ -1,0 +1,55 @@
+﻿@page
+@using DemoDatabaseFromScratch.Domains
+@model DemoDatabaseFromScratch.Pages.Employees.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                StaffNo
+            </th>
+            <th>
+                Alamat Emel
+            </th>
+            <th>
+               Nama Organisasi
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Employee employee in Model.Employees) {
+        <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => employee.Name)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => employee.StaffId)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => employee.Email)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => employee.Organization.Name)
+            </td>
+            <td>
+                    <a asp-page="./Edit" asp-route-id="@employee.Id">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@employee.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@employee.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

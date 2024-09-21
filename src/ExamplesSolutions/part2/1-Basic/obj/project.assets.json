@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\Basic\\2-Basic.csproj",
-      "projectName": "2-Basic",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\Basic\\2-Basic.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\1-Basic\\1-Basic.csproj",
+      "projectName": "1-Basic",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\1-Basic\\1-Basic.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\Basic\\obj\\",
+      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\1-Basic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\irwanazam\\AppData\\Roaming\\NuGet\\NuGet.Config",

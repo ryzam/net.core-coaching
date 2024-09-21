@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj": {}
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\4-InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj": {
+    "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\4-InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
+        "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\4-InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
         "projectName": "4-InheritanceAndPolymorphism",
-        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
+        "projectPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\4-InheritanceAndPolymorphism\\4-InheritanceAndPolymorphism.csproj",
         "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\InheritanceAndPolymorphism\\obj\\",
+        "outputPath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\4-InheritanceAndPolymorphism\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\irwanazam\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "17d5TwRSzOk=",
+  "dgSpecHash": "028/np4RnC0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
+  "projectFilePath": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part1\\7-AsyncWithoutAwait\\7-AsyncWithoutAwait.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
