@@ -344,11 +344,17 @@ Admin users can assign roles to other users through an interface or backend code
 
 1. Run the application:
 
+   Open Packahe Manager Console and run
+   ```bash
+   Update-Database -Context ApplicationDbContext -Project 6-CustomAuthenticationAndAuthorization
+   ```
+   Open command line then run
+    
     ```bash
     dotnet run
     ```
 
-2. Test the following:
+3. Test the following:
     - **Register users** via `/Account/Register`.
     - **Login** using `/Account/Login`.
     - **Assign roles** via `/Admin/AssignRole` (for admin users).
