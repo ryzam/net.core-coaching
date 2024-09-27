@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-DemoDatabaseFromScratch",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-DemoSecureWebApp", "part2\5-DemoSecureWebApp\DemoSecureWebApp\DemoSecureWebApp\5-DemoSecureWebApp.csproj", "{B2D969AC-0784-4AC8-82AA-87AFA6CB6982}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6-CustomAuthenticationAndAuthorization", "part2\6-CustomAuthenticationAndAuthorization\6-CustomAuthenticationAndAuthorization.csproj", "{F9491717-07B0-4FA2-90BB-9C6B3C61E444}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{B2D969AC-0784-4AC8-82AA-87AFA6CB6982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2D969AC-0784-4AC8-82AA-87AFA6CB6982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2D969AC-0784-4AC8-82AA-87AFA6CB6982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9491717-07B0-4FA2-90BB-9C6B3C61E444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9491717-07B0-4FA2-90BB-9C6B3C61E444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9491717-07B0-4FA2-90BB-9C6B3C61E444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9491717-07B0-4FA2-90BB-9C6B3C61E444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{3EF00F7D-EDC4-4DA1-8C37-A828B64EAF7A} = {2692EF91-3569-4B76-9050-841C7B8118A7}
 		{07439E15-9D32-4464-82C9-FCDA7738EFA2} = {2692EF91-3569-4B76-9050-841C7B8118A7}
 		{B2D969AC-0784-4AC8-82AA-87AFA6CB6982} = {2692EF91-3569-4B76-9050-841C7B8118A7}
+		{F9491717-07B0-4FA2-90BB-9C6B3C61E444} = {2692EF91-3569-4B76-9050-841C7B8118A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E5B971CD-8887-421D-BE20-A183B832007F}
