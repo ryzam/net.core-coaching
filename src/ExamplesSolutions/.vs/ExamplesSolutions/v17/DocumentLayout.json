@@ -121,21 +121,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T06:41:41.27Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -146,8 +133,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAowD4AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:20:59.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:20:59.398Z"
             },
             {
               "$type": "Document",
@@ -156,8 +142,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/CustomAuthAppDb/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-09-27T06:09:23.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T06:09:23.415Z"
             },
             {
               "$type": "Document",
@@ -169,8 +154,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\Logout.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:31:46.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:31:46.238Z"
             },
             {
               "$type": "Document",
@@ -182,8 +166,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\RegisterAdmin.cshtml.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAuwBcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:07:12.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:07:12.135Z"
             },
             {
               "$type": "Document",
@@ -200,6 +183,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T06:41:41.27Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\irwanazam\\source\\repos\\netcoretraining\\src\\ExamplesSolutions\\part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Admins\\Index.cshtml",
@@ -208,8 +203,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Admins\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:14:12.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:14:12.734Z"
             },
             {
               "$type": "Document",
@@ -221,8 +215,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T20:33:26.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T20:33:26.444Z"
             },
             {
               "$type": "Document",
@@ -234,8 +227,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Users\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:19:44.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:19:44.239Z"
             },
             {
               "$type": "Document",
@@ -247,8 +239,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:09:08.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:09:08.592Z"
             },
             {
               "$type": "Document",
@@ -260,8 +251,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Register.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T20:33:50.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T20:33:50.602Z"
             },
             {
               "$type": "Document",
@@ -273,8 +263,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\Login.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:12:43.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:12:43.079Z"
             },
             {
               "$type": "Document",
@@ -286,8 +275,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T20:31:51.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T20:31:51.165Z"
             },
             {
               "$type": "Document",
@@ -299,8 +287,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Migrations\\20240926223848_Initial_Schema.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:38:51.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:38:51.417Z"
             },
             {
               "$type": "Document",
@@ -312,8 +299,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\6-CustomAuthenticationAndAuthorization.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-26T21:55:24.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T21:55:24.498Z"
             },
             {
               "$type": "Document",
@@ -325,8 +311,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-24T20:31:20.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T20:31:20.711Z"
             },
             {
               "$type": "Document",
@@ -338,8 +323,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\Logout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:31:28.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:31:28.054Z"
             },
             {
               "$type": "Document",
@@ -351,8 +335,7 @@
               "RelativeToolTip": "part2\\5-DemoSecureWebApp\\DemoSecureWebApp\\DemoSecureWebApp\\Pages\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:20:31.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:20:31.7Z"
             },
             {
               "$type": "Document",
@@ -364,8 +347,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:20:17.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:20:17.982Z"
             },
             {
               "$type": "Document",
@@ -377,8 +359,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Users\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:20:02.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:20:02.744Z"
             },
             {
               "$type": "Document",
@@ -390,8 +371,7 @@
               "RelativeToolTip": "part2\\5-DemoSecureWebApp\\DemoSecureWebApp\\DemoSecureWebApp\\Pages\\Admins\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:18:28.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:18:28.208Z"
             },
             {
               "$type": "Document",
@@ -403,8 +383,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Admins\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:14:41.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:14:41.535Z"
             },
             {
               "$type": "Document",
@@ -416,8 +395,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\AssignRole.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:10:29.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:10:29.059Z"
             },
             {
               "$type": "Document",
@@ -429,8 +407,7 @@
               "RelativeToolTip": "part2\\6-CustomAuthenticationAndAuthorization\\Pages\\Accounts\\AssignRole.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T22:09:55.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T22:09:55.105Z"
             },
             {
               "$type": "Document",
